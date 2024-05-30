@@ -42,4 +42,35 @@ else:
 #code if condition else code
 
 A = 0
-print("A is positive") if A > 0 elif print("A is negative") if A < 0 else print("A is equal to zero")
+print("A is positive") if A > 0 else print("A is negative")
+
+#Nested Conditions
+
+a = 2 
+if a > 0:
+    if a % 2 == 0:
+        print("A is an even number that is positive")
+    else:
+        print("A is a positive number")
+elif a == 0:
+    print("A is zero")
+else:
+    print("A is a negative number")
+    
+    
+a = 0
+if a > 0 and a % 2 ==0:
+    print("A is a positive and even number")
+elif a > 0:
+    print("A is positive")
+elif a == 0:
+    print("A is zero")
+else:
+    print("A is a negative number")
+    
+user = "zwivhuya"
+access_level = 3
+if user == "admin" or access_level >= 4:
+    print("Access granted")
+else:
+    print("Acces denied")
