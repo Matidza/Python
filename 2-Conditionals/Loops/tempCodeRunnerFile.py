@@ -1,9 +1,5 @@
-companies = {'Facebook', 'Google', 'Microsoft',
-             'Apple', 'IBM', 'Oracle', 'Amazon'}
-for com in companies:
-    print(com)
-    
-school = ["School"]
-for i in school:
-    companies.add(school)
-print(companies)
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+for num in numbers:
+    if num == 5:
+        print(num)
+        break
