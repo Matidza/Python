@@ -15,3 +15,16 @@ count = 1
 while count <= 5:
     print(count)
     count += 1
+    
+  # syntax
+# while condition:
+#     code goes here
+# else:
+#    code goes here
+
+aim = 0
+while aim < 10:
+    print(aim)
+    aim += 1
+else:
+    print(aim)
