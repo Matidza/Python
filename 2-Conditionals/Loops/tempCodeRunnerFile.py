@@ -1,2 +1,6 @@
-for i in range(1, 11):
-    print(i* '#')
+aim = 0
+while aim < 10:
+    print(aim)
+    aim += 1
+else:
+    print(aim)

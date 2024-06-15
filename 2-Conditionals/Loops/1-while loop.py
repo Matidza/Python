@@ -16,7 +16,8 @@ while count <= 5:
     print(count)
     count += 1
     
-  # syntax
+
+# syntax
 # while condition:
 #     code goes here
 # else:
