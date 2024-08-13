@@ -1,3 +1,10 @@
-veg = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot']
-print(veg[1])
-print(len(veg) -1 )
+info = ["Zwivhuya", "Mukwecho", "True",
+        {
+            "country": "South Africa",
+            "City": "Vereeneging",
+            "zip": "0920"
+        },
+        ['Python' , "MongoDB", "MySQL" ]
+]
+REMOVE = info[3:: ]
+print(REMOVE.copy())

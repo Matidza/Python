@@ -43,3 +43,44 @@ while one < 20:
         break
     print(one)
     one += 1
+
+
+count = 1
+while count <= 10:
+    print(count)
+    count += 1
+    if count == 5:
+        count += 1
+        break
+
+count = 1
+while count < 10:
+    if count == 5:
+        count += 1
+        continue
+    print(count)
+    count += 1
+
+count = 1
+while count <=20:
+    print(count)
+    count += 1
+    if count == 10:
+        count += 1
+        continue
+
+one = (1,2,3,4,5,6,7,8,9)
+for i in one:
+    if i == 5:
+        continue
+    print(i)
+
+
+one = 1
+while one <= 10:
+    if one == 5:
+        one += 1
+        continue
+    print(one)
+    one += 1
+

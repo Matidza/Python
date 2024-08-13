@@ -11,8 +11,8 @@
 
 #No 1 :
 
-count = 1
-while count <= 5:
+count = 0
+while count < 5:
     print(count)
     count += 1
     
@@ -23,7 +23,7 @@ while count <= 5:
 # else:
 #    code goes here
 
-aim = 0
+aim = 1
 while aim < 10:
     print(aim)
     aim += 1

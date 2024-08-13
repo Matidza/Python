@@ -87,4 +87,22 @@ companies = {'Facebook', 'Google', 'Microsoft',
              'Apple', 'IBM', 'Oracle', 'Amazon'}
 for com in companies:
     print(com)
-    
+
+for i in [0,1,2,3,4]:
+    print(i) 
+
+
+for i in range(10):
+    if i == 5:
+        i += 1
+        continue
+    print(f"{i}\n", end="")
+    i += 1
+
+number = int(input("How many times shoukd the cat meow? "))
+for i in range(number):
+    print("meow")
+
+language = "python"
+for i in language:
+    print(i)

@@ -1,12 +1,20 @@
-month = input(str("What month is it? "))
-if month in ["September", "October", "November"]:
-    season = 'Autumn'
-elif month in ["December", "January", "February"]:
-    season = 'Winter'
-elif month in ["March", "April", "May"]:
-    season = "Spring"
-elif month in ["June", "July", "August"]:
-    season = "Summer"
-else:
-    season = 'Invalid month'
-print(f"The season is {season}")
+person = {
+    "name": "Zwivhuya",
+    "age": 27,
+    "gpa": 3.9,
+    "Employee_id": 0,
+    "Address": {
+        "street": "Rixile street",
+      "No": 2002,
+      "town": "Makhado",
+      "zip": "0920",
+      "country": "South Africa",
+      "suburb": "Tshikota Location"
+    },
+    "skills": ["Python","MongoDB","MySQL","Django","CSS & HTML","Docker"]
+}
+
+for key in person:
+    if key == "skills":
+        for skill in person["skills"]:
+            print(skill)
